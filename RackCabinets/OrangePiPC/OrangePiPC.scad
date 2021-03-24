@@ -15,8 +15,8 @@ depth = 90;
 units = 2;
     
 if(print_frontplate_sml){ // Frontplate //
-    square_hole        = [[64,3 ,14 , 3], [83 ,6, 13, 8]];
-    round_hole         = [[58 ,8.5, 2]];
+    square_hole        = [[66,3 ,14 , 3], [81.5 ,4, 13, 8]];
+    round_hole         = [[58.75 ,8.5, 2.5]];
     round_peg          = [];   
     screw_side_front   = [];
     screw_top          = [36];
@@ -49,8 +49,8 @@ if(print_lid){ // Lid //
 }
 
 if(print_rear){  // Back plate //    
-    square_hole  = [[32 ,6, 15, 16] , [50 ,6, 16.5, 14] , [68.5,6,7.5,15] ];
-    round_hole   = [[6,5,6],[6,1,6], [24,3.5,3.5],[24,1.2,3.5]  ,[30,3.5,3.5],[30,1.2,3.5]];
+    square_hole  = [[33 ,4, 15, 16] , [51 ,4, 16.5, 14] , [69.5,4,7.5,15] ];
+    round_hole   = [[6,5,6],[6,1,6], [22,3.5,3.5],[22,1.2,3.5]  ,[28,3.5,3.5],[28,1.2,3.5]];
     screw_top    = [36];//mm
     screw_bottom = [36];//mm
     screw_side   = [];
